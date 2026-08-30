@@ -682,7 +682,7 @@ PYTHONPATH=. python evaluation/run_eval.py
 
 **[🎥 Watch Demo Video on Google Drive](https://drive.google.com/file/d/14KFJnVzMZvHXMhuuvAt8RdEABjhMC8ew/view?usp=share_link)**
 
-> Replace `PASTE_YOUR_ACTUAL_GOOGLE_DRIVE_LINK_HERE` with your actual Google Drive sharing link.
+
 
 ---
 
