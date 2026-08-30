@@ -1,7 +1,5 @@
 # Aster & Row — Reliable AI Support Agent
 
-> A small, reliable RAG-based customer-support agent built for the Aster & Row AI Agent Intern Take-Home.
-
 Aster & Row is a fictional ecommerce company selling bags, drinkware, and travel accessories.
 
 This project builds a customer-support agent that combines:
@@ -714,9 +712,6 @@ The implementation was therefore changed so that:
 
 are treated as untrusted data, while application instructions remain authoritative.
 
-This reinforced the main design principle:
-
-> **Retrieval provides evidence, not instructions.**
 
 ---
 
