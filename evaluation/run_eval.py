@@ -50,6 +50,9 @@ def check_case(case, outputs):
     for phrase in expect.get("must_include", []):
         if normalize(phrase) not in combined:
             failures.append(f"missing: {phrase}")
+    for phrase in expect.get("must_ask_for", []):
+        if normalize(phrase) not in combined:
+            failures.append(f"missing required question/request: {phrase}")
 
     for phrase in expect.get("must_include_concepts", []):
         concept = normalize(phrase)
